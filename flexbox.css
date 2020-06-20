@@ -1,31 +1,50 @@
 /* REGULAR CSS */
-header {
-  background-color: rgb(245, 161, 7);
-  color: rgb(0, 0, 0);
-  text-align: center;
+html {
+  font-size: 1rem;
 }
-nav {
-  background-color: rgb(216, 216, 189);
-  color: rgb(30, 91, 223);
-  text-align: center;
-  margin: 1%;
-}
-main {
-  background-color: rgba(238, 236, 236, 0.76);
-  color: rgb(30, 91, 223);
-  text-align: center;
-  margin: 1%;
-}
-aside {
-  background-color: rgb(216, 216, 189);
-  color: rgb(30, 91, 223);
-  text-align: center;
-  margin: 1%;
-}
-footer {
-  background-color: rgb(133, 28, 28);
-  color: rgb(255, 255, 255);
+body {
   text-align: center;
 }
 
-/* FLEXBOX CSS */
+header {
+  background-color: rgb(245, 161, 7);
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: rgb(216, 216, 189);
+  color: rgb(30, 91, 223);
+}
+a {
+  padding: 1%;
+}
+
+main {
+  background-color: rgba(238, 236, 236, 0.76);
+  color: rgb(21, 39, 78);
+  text-align: justify;
+}
+
+aside {
+  background-color: rgb(216, 216, 189);
+  color: rgb(30, 91, 223);
+}
+img {
+  padding: 1%;
+  max-width: 15%;
+}
+
+footer {
+  background-color: rgb(133, 28, 28);
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 0.6rem;
+}
+
+/* BIG SCREEN */
+@media screen and (min-width: 600px) {
+}
+
+/* SMALL SCREEN */
+@media screen and (max-width: 600px) {
+}
