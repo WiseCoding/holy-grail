@@ -6,28 +6,47 @@ body {
   text-align: center;
 }
 
+header,
+nav,
+main,
+aside,
+footer {
+  padding: 1%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 header {
   background-color: rgb(245, 161, 7);
   color: rgb(0, 0, 0);
+  height: 50px;
 }
 nav {
-  background-color: rgb(216, 216, 189);
+  background-color: rgb(177, 177, 168);
   color: rgb(30, 91, 223);
 }
 main {
-  background-color: rgba(238, 236, 236, 0.76);
+  background-color: rgba(78, 182, 168, 0.76);
   color: rgb(21, 39, 78);
   text-align: justify;
 }
 aside {
-  background-color: rgb(216, 216, 189);
+  background-color: rgb(177, 177, 168);
   color: rgb(30, 91, 223);
 }
 footer {
-  background-color: rgb(133, 28, 28);
+  background-color: rgb(126, 21, 21);
   color: rgb(255, 255, 255);
   text-align: justify;
   font-size: 0.6rem;
+}
+
+header p {
+  position: relative;
+  margin: unset;
+  font-weight: bold;
+}
+main p {
+  margin-top: unset;
 }
 
 /* BIG SCREEN */
@@ -36,27 +55,30 @@ footer {
   main,
   aside {
     float: left;
+    overflow: auto;
+    height: 500px;
   }
   nav {
-    max-width: 25%;
-  }
-  a {
-    padding: 1%;
+    width: 24%;
   }
   main {
-    max-width: 50%;
+    max-width: 44%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   aside {
-    max-width: 25%;
-  }
-  img {
-    max-width: 110px;
-    padding: 1%;
-    object-fit: contain;
-    max-width: 80%;
+    width: 24%;
   }
   footer {
     clear: both;
+  }
+  img {
+    width: 100%;
+    max-width: 250px;
+  }
+  a {
+    padding: 1%;
+    display: block;
   }
 }
 
@@ -67,8 +89,15 @@ footer {
   aside {
     float: none;
   }
+  header,
+  nav {
+    overflow: auto;
+  }
+  nav {
+    height: 50px;
+  }
   img {
     display: inline;
-    max-width: 15%;
+    max-width: 24%;
   }
 }
