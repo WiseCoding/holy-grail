@@ -47,6 +47,14 @@ header p {
 main p {
   margin-top: unset;
 }
+nav a {
+  text-decoration: none;
+  font-weight: bold; 
+}
+a:hover {
+  font-size: 1.1rem;
+  color: crimson;
+}
 
 /* BIG SCREEN */
 .flexbox {
