@@ -17,10 +17,11 @@ main {
 aside {
   flex: 1;
 }
-
 nav a {
-  display: block;
-}
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 aside img {
   width: 100%;
   max-width: 150px;
@@ -32,7 +33,8 @@ aside img {
     display: block;
   }
   nav a {
-    display: inline;
+    display: inline-block;
+    margin: unset;
   }
   main {
     margin: unset;
