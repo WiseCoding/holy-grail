@@ -1,14 +1,14 @@
 /* REGULAR CSS */
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Neucha&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap");
 
 html {
   background-color: rgb(29, 30, 32);
   font-size: 1rem;
-  font-family: "Staatliches", cursive;
 }
 body {
   text-align: center;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 header,
@@ -35,7 +35,6 @@ main {
   background-color: rgba(0, 247, 111, 0.493);
   color: rgb(255, 255, 255);
   text-align: justify;
-  font-family: "Caveat", cursive;
   font-size: 1.2rem;
 }
 aside {
@@ -45,7 +44,7 @@ aside {
 footer {
   background-color: rgba(192, 24, 24, 0.582);
   color: rgb(255, 255, 255);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 header p {
