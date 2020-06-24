@@ -1,5 +1,5 @@
 /* REGULAR CSS */
-/* Regular styling code can be found in STYLE.CSS */
+@import "style.css";
 
 /* BIG SCREEN */
 .flexbox {
